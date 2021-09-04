@@ -1,0 +1,38 @@
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    border: 2px solid red;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.jpg) no-repeat;
+    background-size: 100%;
+}
+#hrs,#min,#sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+#hrs{
+    width: 1.8%;
+    height: 22%;
+    top: 27%;
+    left: 49.2%;
+    transform-origin: bottom;
+}
+
+#min{   
+    /* display: block; */
+    width: 1.1%;
+    height: 28%;
+    top: 22%;
+    left: 49.2%;
+    transform-origin: bottom;
+}
+#sec{  
+    /* display: block; */
+    width: .8%;
+    height: 28%;
+    top: 22%;
+    left: 49.2%;
+    transform-origin: bottom;
+}
